@@ -4,6 +4,9 @@ console.log('it works');
 
 //creo una funzione che contenga una variabile per inserire un array di numeri
 //i numeri verranno generati da un ciclo 
+
+setTimeout(putTheNumber, 5000);
+
 function randomInt(size, maxNumber) {
     let computerNumbers = [];
 
@@ -26,7 +29,31 @@ numBox_aEL.innerHTML = randomArray.join(',');
 
 console.log(numBox_aEL);
 
-//
+//creare una timing function dove inserire i numeri
 
-  
+
+
+function putTheNumber(){
+
+    /*let boxNumber = `<form class="row g-3">
+        <div class="col-auto">
+            <label for="" class="visually-hidden">Insersci i 5 numeri</label>
+            </div>
+        <div class="col-auto">
+            <label for="inputNumber" class="visually-hidden">Password</label>
+            <input type="number" class="form-control" id="inputNumber" placeholder="">
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Conferma</button>
+        </div>
+        </form>`
+
+        return boxNumber*/
+
+
+}
+
+console.log(putTheNumber);
+
+
   
