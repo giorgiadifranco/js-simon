@@ -5,9 +5,9 @@ console.log('it works');
 //creo una funzione che contenga una variabile per inserire un array di numeri
 //i numeri verranno generati da un ciclo 
 
-setTimeout(putTheNumber, 5000);
 
-function randomInt(size, maxNumber) {
+
+function randomInt() {
     let computerNumbers = [];
 
     for (i = 0 ; i < 5; i++){
@@ -35,7 +35,7 @@ console.log(numBox_aEL);
 
 function putTheNumber(){
 
-    /*let boxNumber = `<form class="row g-3">
+    let boxNumber = `<form class="row g-3">
         <div class="col-auto">
             <label for="" class="visually-hidden">Insersci i 5 numeri</label>
             </div>
@@ -48,12 +48,13 @@ function putTheNumber(){
         </div>
         </form>`
 
-        return boxNumber*/
+        document.querySelector("formcontainer").innerHTML = boxNumber
+
+        //console.log(boxNumber);
+        
 
 
 }
-
-console.log(putTheNumber);
-
+setTimeout(putTheNumber, 5000);
 
   
