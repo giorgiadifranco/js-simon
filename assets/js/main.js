@@ -29,7 +29,7 @@ numBox_aEL.innerHTML = randomArray.join(',');
 
 console.log(numBox_aEL);
 
-//creare una timing function dove inserire i numeri
+//creare una timing function dove eliminare i numeri precedentemente generati e  inserire gli input
 
 
 
