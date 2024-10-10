@@ -4,7 +4,7 @@ console.log('it works');
 
 //creo una funzione che contenga una variabile per inserire un array di numeri
 //i numeri verranno generati da un ciclo 
-function RandomInt(size, maxNumber) {
+function randomInt(size, maxNumber) {
     let computerNumbers = [];
 
     for (i = 0 ; i < 5; i++){
@@ -14,7 +14,7 @@ function RandomInt(size, maxNumber) {
     }
     return computerNumbers;
   }
-  let randomArray = RandomInt(size, maxNumber);
+  let randomArray = randomInt(size, maxNumber);
 console.log(randomArray);
 
 

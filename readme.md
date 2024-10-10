@@ -1,6 +1,6 @@
 ## Descrizione:
 
-1. Visualizzare in pagina 5 numeri casuali.(math.random)
+1. Visualizzare in pagina 5 numeri casuali.(loop for, array, math.random, )
 2. Da lì parte un timer di 30 secondi.(async.)
 3. Dopo 30 secondi i numeri scompaiono
 4. appaiono invece 5 input.(input type)
