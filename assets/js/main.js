@@ -14,9 +14,19 @@ function randomInt(size, maxNumber) {
     }
     return computerNumbers;
   }
-  let randomArray = randomInt(size, maxNumber);
+  let randomArray = randomInt();
 console.log(randomArray);
 
+//inserire randomArray in un output(innerHTML)
+//creare una costante che mi permetta di richiamare il tag html
+
+const numBox_aEL = document.getElementById("numbox");
+
+numBox_aEL.innerHTML = randomArray.join(',');
+
+console.log(numBox_aEL);
+
+//
 
   
   
